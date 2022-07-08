@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.SideMenu {
+    background-color: lightgray;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+}
+
+div.SideMenu ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.SideMenu ul li {
+    padding: 5% 10%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li.active {
+    background-color: green;
+}
+
+li.active a {
+    color: white;
+}
+
+li:hover:not(.active) {
+    background-color: #555;
+}
+
+li:hover:not(.active) a {
+    color: white;
+}
