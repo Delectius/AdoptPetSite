@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+
+.SideMenu {
+    background-color: lightgray;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+}
+
+div.SideMenu ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.SideMenu ul li {
+    padding: 5% 10%;
+    text-decoration: none;
+}
+
+div.SideMenu a {
+    text-decoration: none;
+    color: black;
+}
+
+div.SideMenu li.active {
+    background-color: green;
+}
+
+div.SideMenu li.active a {
+    color: white;
+}
+
+div.SideMenu li:hover:not(.active) {
+    background-color: #555;
+}
+
+div.SideMenu li:hover:not(.active) a {
+    color: white;
+}
+
+.Header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 15%;
+    bottom: 85%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    background: #384a63;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.Container {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    right: 0;
+    bottom: 10%;
+    background: #F9FAF8;
+    color: black;
+    text-align: center;
+    overflow-y: scroll;
+    font-size: larger;
+}
+
+.Container .contactInfo {
+    margin-top: 100px;
+    margin-bottom: 125px;
+    padding: 25px;
+}
+.Container .picSource {
+   text-align: justify;
+   font-size: medium;
+}
+.Footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 15%;
+    top: 90%;
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.Footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: white;
+}
