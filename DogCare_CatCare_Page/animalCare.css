@@ -42,29 +42,13 @@ div.SideMenu li:hover:not(.active) a {
     color: white;
 }
 
-.Header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 15%;
-    bottom: 85%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
-    background: #384a63;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-}
-
 .Container {
     position: absolute;
     left: 15%;
     top: 15%;
     right: 0;
     bottom: 10%;
-    background: #F9FAF8;
+    background: beige;
     color: black;
     overflow-y: scroll;
 }
@@ -80,32 +64,25 @@ p {
     text-indent: 5%;
     max-width: 750px;
     padding: 2rem;
-   
-    margin: -2rem auto;
+    margin: auto;
 }
 
-.Footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 15%;
-    top: 90%;
-    background: #1F2937;
-    display: flex;
-    align-items: center;
+.red {
+    background-color: lightcoral;
+    border-radius: 20px;
 }
 
-.Footer ul {
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.orange {
+    background-color: orange;
+    border-radius: 20px;
 }
 
-.Footer a {
-    text-decoration: none;
-    color: white;
+.blue {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: lightgreen;
+    border-radius: 20px;
 }
