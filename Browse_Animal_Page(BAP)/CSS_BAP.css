@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.SideMenu {
+    background-color: lightgray;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+}
+
+div.SideMenu ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.SideMenu ul li {
+    padding: 5% 10%;
+    text-decoration: none;
+}
+
+div.SideMenu a {
+    text-decoration: none;
+    color: black;
+}
+
+div.SideMenu li.active {
+    background-color: green;
+}
+
+div.SideMenu li.active a {
+    color: white;
+}
+
+div.SideMenu li:hover:not(.active) {
+    background-color: #555;
+}
+
+div.SideMenu li:hover:not(.active) a {
+    color: white;
+}
+
+.Container {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    right: 0;
+    bottom: 10%;
+    background: #F9FAF8;
+    color: black;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#petList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#pet {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#pet button {
+    padding: 10px;
+    border-radius: 25px;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12x;
+
+}
