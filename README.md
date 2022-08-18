@@ -1,3 +1,3 @@
 # AdoptPetSite
-https://delectius.github.io/AdoptPetSite/index/index.html
+site: "https://delectius.github.io/AdoptPetSite/index/index.html"
 
