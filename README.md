@@ -1,3 +1,3 @@
 # AdoptPetSite
-site: "https://delectius.github.io/AdoptPetSite/index/index.html"
+site: "https://users.encs.concordia.ca/~ra_kanda/SOEN287_a4_40210959/Q3_Project/index/"
 
