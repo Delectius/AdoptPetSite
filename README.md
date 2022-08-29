@@ -1,5 +1,5 @@
 # AdoptPetSite
-The sites deployed at: "https://users.encs.concordia.ca/~ra_kanda/SOEN287_a4_40210959/Q3_Project/index/"
+The site deployed at: "https://users.encs.concordia.ca/~ra_kanda/SOEN287_a4_40210959/Q3_Project/index/"
 
 The main page with the header and footer that is shown and appears the same in every page.
 
